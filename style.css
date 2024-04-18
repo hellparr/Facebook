@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+}
+
+.contenedor-principal {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  height: 95vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.textos-principal {
+  width: 60%;
+  margin-right: 70px;
+  color: #1877f2;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+
+.contenedor-principal .formulario .inicio p {
+  font-size: 18px;
+}
+
+.formulario {
+  width: 396px;
+  height: 349px;
+  border-radius: 10px;
+  border: 1px solid #e8e8e9;
+  box-shadow: 0px 8px 32px rgba(153, 153, 153, 0.38);
+  background: #fff;
+  padding: 20px 0 20px 0;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+}
+
+.formato input {
+  width: 364px;
+  height: 52px;
+  background: #fff;
+  padding: 14px 16px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid #e4e3e3;
+}
+
+.formato input:focus {
+  border-color: #e4e3e3;
+  outline: none;
+}
+
+.formato .entrar {
+  width: 364px;
+  height: 52px;
+  background: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.formato a {
+  display: inline-block;
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.formato hr {
+  margin: 0 20px 0 20px;
+  margin-bottom: 20px;
+  border: 0.2px solid #e4e3e3;
+}
+
+.formato .crear-cuenta {
+  width: 189.8px;
+  height: 48px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: #42b72a;
+}
