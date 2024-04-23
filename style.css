@@ -102,31 +102,44 @@ body {
 }
 
 footer {
-justify-items:flex-start;
-font-size: 15px;
+justify-items: center;
 font-family: inherit;
+width: 1500px;
+height: 200px;
+padding: 100px;
+font-size: 12px;
+
+}
+
+footer {
+  background: #fff;
 }
 
 .footer .paises {
   font-family: inherit;
   color: #8a8d91;
   cursor: pointer;
-  text-align: center;
   display: flex;
-  justify-content: flex-start;
-  }
+}
 
-  .footer .infor {
+.footer .infor {
   color: #8a8d91;
   cursor: pointer;
-  text-align: left;
   display: flex;
   justify-content: flex-start;
   margin-bottom: 10px;
-  }
+}
 
-  .footer hr {
-    margin: 10px;
-  }
+.footer hr {
+  margin: 10px;
+}
 
+.meta p {
+  color: #8a8d91;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  font-size: 12px;
+  background: #fff;
+  padding: 100px;
+}
   
