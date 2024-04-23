@@ -100,3 +100,33 @@ body {
   color: #fff;
   background: #42b72a;
 }
+
+footer {
+justify-items:flex-start;
+font-size: 15px;
+font-family: inherit;
+}
+
+.footer .paises {
+  font-family: inherit;
+  color: #8a8d91;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  }
+
+  .footer .infor {
+  color: #8a8d91;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  }
+
+  .footer hr {
+    margin: 10px;
+  }
+
+  
