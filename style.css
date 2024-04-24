@@ -52,6 +52,7 @@ body {
   text-align: center;
   position: relative;
   bottom: 100px;
+  cursor: pointer;
 }
 
 .formato input {
@@ -80,6 +81,7 @@ body {
   border-radius: 8px;
   font-size: 22px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .formato a {
@@ -105,6 +107,7 @@ body {
   color: #fff;
   background: #42b72a;
   padding: 6px 0;
+  cursor: pointer;
 }
 
 footer {
